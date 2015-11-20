@@ -21,5 +21,4 @@ ADD . /src
 EXPOSE  8080
 
 # Run app using nodemon
-CMD ["node", "/src/run-monitor-server.js"]
-CMD ["node", "/src/run-web-server.js"]
+CMD ["node", "/src/server.js"]
