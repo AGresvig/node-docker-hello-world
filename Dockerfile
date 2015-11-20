@@ -18,7 +18,7 @@ WORKDIR /src
 ADD . /src
 
 # Expose port
-EXPOSE  8080
+EXPOSE  3000
 
 # Run app using nodemon
 CMD ["node", "/src/server.js"]
